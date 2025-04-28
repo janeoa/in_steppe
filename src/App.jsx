@@ -17,7 +17,7 @@ import ScrollToTop from './pages/SeeMorePage/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/in_steppe">
       <div className='relative'>
         <div className="relative z-10">
           <Header />
@@ -36,7 +36,7 @@ function App() {
         </div>
       <WireDecoration className="hidden md:block absolute lg:bottom-[-60px] w-full h-auto z-0 pointer-events-none" />
       </div>
-      
+
     </Router>
   )
 };
