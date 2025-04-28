@@ -11,5 +11,5 @@ export default defineConfig({
     svgr()
   ],
   // Set the base path for GitHub Pages
-  // base: '/in_steppe/',
+  base: '/in_steppe/',
 })
