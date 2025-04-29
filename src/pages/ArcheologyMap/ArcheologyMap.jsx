@@ -47,7 +47,7 @@ function ArcheologyMap() {
         </div>
 
         {/* Основной контент */}
-        <div className="grid md:grid-cols-3 gap-4 items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4 items-stretch">
           {/* Изображение */}
           <img
             src={MapImg}
@@ -55,12 +55,12 @@ function ArcheologyMap() {
             className="rounded-xl object-cover w-full lg:h-120 h-50 col-span-2"
           />
           {/* Контейнер с текстом */}
-          <div className="relative bg-white rounded-xl p-6 flex flex-col justify-between h-full">
+          <div className="relative bg-white rounded-xl p-6 flex flex-col justify-between lg:h-120 h-50">
             <Quotes className="absolute object-cover left-0 top-0 z-0 pointer-events-none" />
             <Quotes
               className="absolute right-0 bottom-0 z-0 pointer-events-none transform rotate-180"
             />
-            <div className='relative z-10 flex flex-col justify-between h-100 lg:h-full p-4'>
+            <div className='relative z-10 flex flex-col justify-between h-full p-4'>
               <h1 className="text-3xl font-bold">Aktailak village</h1>
               <p>
                 Aktailak is a village located in the Zhana-Arka district of Ulytau Oblast. It served as the
@@ -98,7 +98,7 @@ function ArcheologyMap() {
 
         {/* Последняя секция */}
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4 items-stretch">
-          <div className="relative bg-white rounded-xl p-6 flex items-center h-100 lg:h-full">
+          <div className="relative bg-white rounded-xl p-6 flex items-center lg:h-120 h-50">
             <Quotes className="absolute object-cover left-0 top-0 z-0 pointer-events-none" />
             <Quotes
               className="absolute object-cover right-0 bottom-0 z-0 pointer-events-none transform rotate-180"
